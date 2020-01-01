@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- 
+Name: Josh Engel
+Date Created: 12/22/19
+Most recent revision: 12/16/19
+
+-->
+<html lang="en">
+	<head>
+		<title> GRANDMA'S KITCHEN</title>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> 
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<style>
+		
+		head, body{
+			background-color: #00aeed;
+			}
+			
+			#item h3{
+				font-size: 1.5em;
+				font-weight:bold;
+				margin-bottom:1px;
+			}
+			table thead{
+				border-collapse:collapse;
+				}
+			table tbody{
+				text-align: left;
+				
+			}
+			table tbody tr:nth-child(odd){
+			
+			background-color: #0d6c94
+			}
+			
+			table {
+				border-color: white;
+				border-left-width: 150px;
+				border-right-width: 1px;
+				}
+			.btn{
+				border: 5px;
+				background-color: #000;
+				font-weight:bold;
+				color: black;
+				border-color: black;
+				margin: 5px;
+	
+			}
+
+		</style>
+		
+	</head>
+	<body>
+	 <noscript>
+      <div style="border: 1px solid red; padding: 10px">
+        <span style="color:red">JavaScript is not enabled! This site is best used with JavaScript Enabled.</span>
+      </div>
+    </noscript>
+		<header>
+			<h1> GRANDMA'S KITCHEN</h1>
+		</header>
+		
+		<nav>
+			
+			<a class="btn badge-pill"  href="home.html"> <i class="material-icons">home</i> </a>
+			<a class="btn badge-pill" href="menu.html"> Menu</a> 
+			<a class="btn badge-pill" href="contact.html"> Contact Us</a>
+			
+			<div class="clear-float">
+			
+		</nav>
+		
+		<div class="container" id="menuElements">
+			<div class="row">
+				<div class="col-4" id="item">
+					<h3>Spaghetti and Meatballs </h3></br>
+					An Italian Classic!</br>
+					Your choice to have either Spaghetti or Penne (gluten-free options available). 
+					Simple meatballs made with meat that is at least 80%lean and all organic. Tomato sauce freshly made every morning with all organic ingrident. </br>
+					$9.99 
+				</div>
+			
+				<div class="col-4" id="item">
+					<h3> Steak and Mashed Potatos</h3></br>
+					A nice hearty meal!</br>
+					A nice cut of Filet Mignon, cooked to your liking. Marinated for a minimum of 4 hours in our homemade marinade, cooked to the perfect temperature and then quickly seared.
+					Served with homemade, real Mashed Potatos and some Garlic Broccoli.</br>
+					$14.99 
+				</div>
+				<div class="col-4" id="item">
+					<h3> Fried Chicken </h3></br>
+					Crunchy and Juicy!</br>
+					All Natural Chicken seasoned with real spices, real buttermilk, a dash of honey and a pinch flour. We use a combination of air frying and traditional frying for a healthier twist on this classic!
+					Served with corn souffle and green beans! </br>
+					$9.99 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-4" id="item">
+					<h3> Zesty Lemon Salmon </h3></br>
+					A new twist on a classic!</br>
+					Fresh, organic and wild caught Salmon marinated in our special blend of spices and cooked to perfection. Topped off with a bit of lemon to give it that
+					extra zest. Served with a wild rice blend and a spinach-tomato blend</br>
+					$11.99
+				</div>
+			
+				<div class="col-4" id="item">
+					<h3> Vegetarian Chili </h3></br>
+					Keep yourself warm and cozy!</br>
+					Vegetarian Chili is all the warmth and comfort of traditional chili, just without the beef. Packed to the brim with beans, vegetables and most importantly flavor!
+					Add some tofu on the side for some extra protein. Served with rice and garlic bread. </br>
+					$9.99
+				</div>
+				<div class="col-4" id="item">
+					<h3> Sausage and Peppers</h3></br>
+					Classic but versitile!</br>
+					All natural sausage and fresh and organic bell peppers, thats it! Sauasage and Peppers cooked in our signature sauce, with a few spices added in.
+					This meal could be served over rice, with mashed potatoes or on a nice hero roll to make it that sandwhich you've been craving. </br>
+					$11.99 
+				</div>
+			
+			</div>
+			<table class="table">
+				<thead>
+					<tr>
+						<th class="col"> Beverages </th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th class="col-8" > Root Beer </th>
+						<th class="col-4">  $3.00 </th>
+					</tr>
+					<tr>
+						<th class="col-8" > Bottled Water </th>
+						<th class="col-4">   $1.25 </th>
+					</tr>
+					<tr>
+						<th class="col-8" > Lemonade </th>
+						<th class="col-4">   $2.00 </th>
+					</tr>
+					<tr>
+						<th class="col-8" > Iced Tea </th>
+						<th class="col-4">   $2.00 </th>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+		</body>
+		<footer>
+		<p> 1589 Long Beach Road, Oceanside, NY 11572 </br>
+			516- GRANDMA or 516-472-6362</p>
+		<p> &copy; 2018 Grandma's Kitchen LLC. All rights reserved. </p>
+	</footer>
+</html>
